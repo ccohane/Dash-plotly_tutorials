@@ -1,3 +1,10 @@
+import dash
+import dash_core_components as dcc
+import dash_html_components as html
+import numpy as np
+import pandas as pd
+from dash.dependencies import Input, Output
+
 df = pd.DataFrame({
     'a': [1, 2, 3],
     'b': [4, 1, 4],
