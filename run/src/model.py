@@ -12,5 +12,6 @@ players = response['teams'][0]['players']
 #for x in players:
 #    pprint.pprint(x)
 
-df= pd.read_json(response)
 
+pd.DataFrame.from_dict(response,orient='index')
+print(pd)
