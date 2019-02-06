@@ -14,4 +14,3 @@ players = response['teams'][0]['players']
 
 
 pd.DataFrame.from_dict(response,orient='index')
-print(pd)
